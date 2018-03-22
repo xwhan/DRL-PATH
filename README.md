@@ -15,7 +15,7 @@ Download the knowledge graph dataset [NELL-995](http://cs.ucsb.edu/~xwhan/datase
     * `./pathfinder.sh concept_athletehomestadium` 
     * `./fact_prediction_eval.py concept_athletehomestadium`
     * `./link_prediction_eval.sh concept_athletehomestadium`
-3. Since we already put the reasoning paths in the dataset, you can directly run fact_prediction_eval.py or link_prediction_eval.sh to get the final results for each reasoning task
+3. Since we already put the reasoning paths in the dataset, you can directly run `fact_prediction_eval.py` or `link_prediction_eval.sh` to get the final results for each reasoning task
 
 ## Format of the dataset
 1. `raw.kb`: the raw kb data from NELL system
