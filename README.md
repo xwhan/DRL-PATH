@@ -7,7 +7,7 @@ Download the knowledge graph dataset [NELL-995](http://cs.ucsb.edu/~xwhan/datase
 ## How to run our code 
 1. unzip the data, put the data folder in the code directory
 2. run the following scripts within `scripts/`
-    *   `./pathfinder.sh ${relation_name}`  # find the reasoning paths, this is RL training, it might take sometime
+    *   `./pathfinder.sh ${relation_name}`  # find the reasoning paths, this is RL training, it might take some time
     *   `./fact_prediction_eval.py ${relation_name}` # calculate & print the fact prediction results
     *   `./link_prediction_eval.sh ${relation_name}` # calculate & print the link prediction results
 
